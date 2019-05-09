@@ -5,7 +5,7 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
     katz_deli.each_with_index  {|name, index| line.push("#{index +1 }.", name)}
-    puts "The line is currently: #{line.join(" ")}"	
+    puts "The line is currently: #{line.join(" ")}"
 end
 
  def take_a_number(katz_deli,person)
@@ -25,4 +25,4 @@ end
     puts "Currently serving #{katz_deli[0]}."
     katz_deli.shift
   end
-end 
+end
