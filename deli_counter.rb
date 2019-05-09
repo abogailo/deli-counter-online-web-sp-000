@@ -4,10 +4,10 @@ katz_deli = []
 def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
-  end  
+  end
     katz_deli.each_with_index  {|name, index| line.push("#{index +1 }.", name)}
     puts "The line is currently: #{line.join(" ")}"
-  
+
 end
 
  def take_a_number(katz_deli,person)
