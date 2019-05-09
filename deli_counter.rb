@@ -4,7 +4,7 @@ katz_deli = []
 def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
-  else
+  elsif !katz_deli.empty?
     katz_deli.each_with_index  {|name, index| line.push("#{index +1 }.", name)}
     puts "The line is currently: #{line.join(" ")}"
   end
