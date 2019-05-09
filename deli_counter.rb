@@ -6,6 +6,7 @@ def line(katz_deli)
     puts "The line is currently empty."
     katz_deli.each_with_index  {|name, index| line.push("#{index +1 }.", name)}
     puts "The line is currently: #{line.join(" ")}"
+  end
 end
 
  def take_a_number(katz_deli,person)
